@@ -1,0 +1,128 @@
+body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Flamenco', cursive;
+}
+.nav-bar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 20px;
+}
+.nav-img{
+        width: auto;
+        height: 150px;
+        padding-left: 25px;
+        padding-top: 10px;
+}
+.nav-content{
+        display: flex;
+        align-items: center;
+}
+.nav-content a{
+        padding: 15px;
+}
+a{
+        text-decoration: none;
+        color: #fff;
+}
+.h3{
+        font-size: 150%;
+        letter-spacing: 1px;
+}
+#background-img{
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url(/background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+}
+.main{
+        position: absolute;
+        top: 50%;
+        width: 1180px;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.main h1{
+        color: #fff;
+        font-size: 350%;
+        word-spacing: 3px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        text-shadow: 2px 2px 4px ;
+}
+.main button{
+        background-color: transparent;
+        border: none;
+}
+.img-tag{
+     border-radius: 50%;
+}
+footer{
+      background: #111;
+      height:auto;
+      width: 100vw;
+      font-family: "Open Sans";
+      color: #fff;
+}
+.footer-content{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+}
+.footer-content h3{
+      font-size: 1.8rem;
+      font-weight: 400;
+      line-height: 2rem;
+}
+.socials{
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 1rem 0 3rem 0;
+}
+.socials li{
+      margin: 0 10px;
+}
+.socials a{
+      text-decoration: none;
+      color: rgb(228, 201, 201);
+}
+.socials a i{
+      font-size: 1.1rem;
+      transition: color .4s ease;
+}
+.socials a:hover i{
+      color: aqua;
+}
+.footer-bottom{
+      background: #000;
+      width: 100vw;
+      padding: 5px;
+      text-align: center;
+}
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
+.navbar{
+        height: 120px;
+        width: auto;
+}
+.nav{
+        background-color: rgb(11,11,27);
+        display: flex;
+        justify-content: center;
+} 
